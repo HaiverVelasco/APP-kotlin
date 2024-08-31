@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Mi_Primera_APP" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SplashScreenapp" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pink</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/wooperlandlogo</item>
+        <item name="postSplashScreenTheme"> @style/Theme.SplashScreenapp</item>
+    </style>
+</resources>
